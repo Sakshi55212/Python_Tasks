@@ -3,14 +3,31 @@
 
 
 a = float(input("Enter the 1st number: "))
+
 b = float(input("Enter the 2nd number: "))
 
 
 add = a + b
+
 sub = a - b
+
 multiplication = a * b
+
 division = a / b
+
 print("Addition of a and b:", add)
+
 print("Subtraction of a and b:", sub)
+
 print("Multiplication of a and b:", multiplication)
+
 print("Division of a and b:", division)
+
+# Task 2: Greeting using first and last name
+
+first_name = input("Enter your first name: ")
+
+last_name = input("Enter your last name: ")
+
+
+print(f"Hello, {first_name} {last_name}! Welcome to the Python program.")
